@@ -1,0 +1,20 @@
+{
+  "groups": {
+    "bottle": {
+      "taco_categories": ["Clear plastic bottle", "Glass bottle", "Other plastic bottle"],
+      "prompt": "bottle"
+    },
+    "can": {
+      "taco_categories": ["Drink can", "Food Can"],
+      "prompt": "can"
+    },
+    "bag": {
+      "taco_categories": ["Single-use carrier bag", "Garbage bag", "Polypropylene bag"],
+      "prompt": "plastic bag"
+    },
+    "cigarette": {
+      "taco_categories": ["Cigarette"],
+      "prompt": "cigarette butt"
+    }
+  }
+}

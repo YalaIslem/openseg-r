@@ -1,0 +1,1450 @@
+{
+ "seed": 0,
+ "n_dev_per_group": 20,
+ "n_test_per_group": 40,
+ "categories_file": "configs/categories.json",
+ "dev": [
+  {
+   "image_id": 104,
+   "file_name": "batch_10/000003.jpg",
+   "group": "bag",
+   "n_instances": 1
+  },
+  {
+   "image_id": 105,
+   "file_name": "batch_10/000004.jpg",
+   "group": "bag",
+   "n_instances": 1
+  },
+  {
+   "image_id": 110,
+   "file_name": "batch_10/000009.jpg",
+   "group": "bag",
+   "n_instances": 1
+  },
+  {
+   "image_id": 245,
+   "file_name": "batch_11/000044.jpg",
+   "group": "bag",
+   "n_instances": 1
+  },
+  {
+   "image_id": 332,
+   "file_name": "batch_12/000031.jpg",
+   "group": "bag",
+   "n_instances": 1
+  },
+  {
+   "image_id": 340,
+   "file_name": "batch_12/000039.jpg",
+   "group": "bag",
+   "n_instances": 1
+  },
+  {
+   "image_id": 370,
+   "file_name": "batch_12/000069.jpg",
+   "group": "bag",
+   "n_instances": 1
+  },
+  {
+   "image_id": 481,
+   "file_name": "batch_13/000080.jpg",
+   "group": "bag",
+   "n_instances": 1
+  },
+  {
+   "image_id": 674,
+   "file_name": "batch_15/000073.jpg",
+   "group": "bag",
+   "n_instances": 2
+  },
+  {
+   "image_id": 689,
+   "file_name": "batch_2/000005.JPG",
+   "group": "bag",
+   "n_instances": 1
+  },
+  {
+   "image_id": 838,
+   "file_name": "batch_3/IMG_4913.JPG",
+   "group": "bag",
+   "n_instances": 1
+  },
+  {
+   "image_id": 1202,
+   "file_name": "batch_7/000035.JPG",
+   "group": "bag",
+   "n_instances": 1
+  },
+  {
+   "image_id": 1203,
+   "file_name": "batch_7/000036.JPG",
+   "group": "bag",
+   "n_instances": 2
+  },
+  {
+   "image_id": 1213,
+   "file_name": "batch_7/000049.JPG",
+   "group": "bag",
+   "n_instances": 1
+  },
+  {
+   "image_id": 1215,
+   "file_name": "batch_7/000051.JPG",
+   "group": "bag",
+   "n_instances": 2
+  },
+  {
+   "image_id": 1227,
+   "file_name": "batch_7/000065.JPG",
+   "group": "bag",
+   "n_instances": 1
+  },
+  {
+   "image_id": 1290,
+   "file_name": "batch_7/000133.JPG",
+   "group": "bag",
+   "n_instances": 1
+  },
+  {
+   "image_id": 1353,
+   "file_name": "batch_8/000053.jpg",
+   "group": "bag",
+   "n_instances": 1
+  },
+  {
+   "image_id": 1355,
+   "file_name": "batch_8/000055.jpg",
+   "group": "bag",
+   "n_instances": 3
+  },
+  {
+   "image_id": 1471,
+   "file_name": "batch_9/000071.jpg",
+   "group": "bag",
+   "n_instances": 1
+  },
+  {
+   "image_id": 76,
+   "file_name": "batch_1/000098.JPG",
+   "group": "bottle",
+   "n_instances": 1
+  },
+  {
+   "image_id": 115,
+   "file_name": "batch_10/000014.jpg",
+   "group": "bottle",
+   "n_instances": 1
+  },
+  {
+   "image_id": 130,
+   "file_name": "batch_10/000029.jpg",
+   "group": "bottle",
+   "n_instances": 1
+  },
+  {
+   "image_id": 148,
+   "file_name": "batch_10/000047.jpg",
+   "group": "bottle",
+   "n_instances": 1
+  },
+  {
+   "image_id": 299,
+   "file_name": "batch_11/000098.jpg",
+   "group": "bottle",
+   "n_instances": 1
+  },
+  {
+   "image_id": 526,
+   "file_name": "batch_14/000025.jpg",
+   "group": "bottle",
+   "n_instances": 1
+  },
+  {
+   "image_id": 597,
+   "file_name": "batch_14/000096.jpg",
+   "group": "bottle",
+   "n_instances": 1
+  },
+  {
+   "image_id": 663,
+   "file_name": "batch_15/000062.jpg",
+   "group": "bottle",
+   "n_instances": 1
+  },
+  {
+   "image_id": 782,
+   "file_name": "batch_3/IMG_4992.JPG",
+   "group": "bottle",
+   "n_instances": 1
+  },
+  {
+   "image_id": 1000,
+   "file_name": "batch_5/000101.JPG",
+   "group": "bottle",
+   "n_instances": 1
+  },
+  {
+   "image_id": 1107,
+   "file_name": "batch_6/000072.JPG",
+   "group": "bottle",
+   "n_instances": 8
+  },
+  {
+   "image_id": 1120,
+   "file_name": "batch_6/000058.JPG",
+   "group": "bottle",
+   "n_instances": 2
+  },
+  {
+   "image_id": 1131,
+   "file_name": "batch_6/000047.JPG",
+   "group": "bottle",
+   "n_instances": 1
+  },
+  {
+   "image_id": 1160,
+   "file_name": "batch_6/000015.JPG",
+   "group": "bottle",
+   "n_instances": 2
+  },
+  {
+   "image_id": 1277,
+   "file_name": "batch_7/000119.JPG",
+   "group": "bottle",
+   "n_instances": 1
+  },
+  {
+   "image_id": 1313,
+   "file_name": "batch_8/000013.jpg",
+   "group": "bottle",
+   "n_instances": 1
+  },
+  {
+   "image_id": 1337,
+   "file_name": "batch_8/000037.jpg",
+   "group": "bottle",
+   "n_instances": 1
+  },
+  {
+   "image_id": 1405,
+   "file_name": "batch_9/000005.jpg",
+   "group": "bottle",
+   "n_instances": 1
+  },
+  {
+   "image_id": 1497,
+   "file_name": "batch_9/000097.jpg",
+   "group": "bottle",
+   "n_instances": 2
+  },
+  {
+   "image_id": 1499,
+   "file_name": "batch_9/000099.jpg",
+   "group": "bottle",
+   "n_instances": 1
+  },
+  {
+   "image_id": 46,
+   "file_name": "batch_1/000038.jpg",
+   "group": "can",
+   "n_instances": 3
+  },
+  {
+   "image_id": 55,
+   "file_name": "batch_1/000073.JPG",
+   "group": "can",
+   "n_instances": 1
+  },
+  {
+   "image_id": 75,
+   "file_name": "batch_1/000062.JPG",
+   "group": "can",
+   "n_instances": 2
+  },
+  {
+   "image_id": 96,
+   "file_name": "batch_1/000004.jpg",
+   "group": "can",
+   "n_instances": 1
+  },
+  {
+   "image_id": 135,
+   "file_name": "batch_10/000034.jpg",
+   "group": "can",
+   "n_instances": 1
+  },
+  {
+   "image_id": 455,
+   "file_name": "batch_13/000054.jpg",
+   "group": "can",
+   "n_instances": 15
+  },
+  {
+   "image_id": 570,
+   "file_name": "batch_14/000069.jpg",
+   "group": "can",
+   "n_instances": 1
+  },
+  {
+   "image_id": 691,
+   "file_name": "batch_2/000007.JPG",
+   "group": "can",
+   "n_instances": 1
+  },
+  {
+   "image_id": 708,
+   "file_name": "batch_2/000026.JPG",
+   "group": "can",
+   "n_instances": 1
+  },
+  {
+   "image_id": 713,
+   "file_name": "batch_2/000033.JPG",
+   "group": "can",
+   "n_instances": 1
+  },
+  {
+   "image_id": 722,
+   "file_name": "batch_2/000042.JPG",
+   "group": "can",
+   "n_instances": 1
+  },
+  {
+   "image_id": 727,
+   "file_name": "batch_2/000048.JPG",
+   "group": "can",
+   "n_instances": 1
+  },
+  {
+   "image_id": 1028,
+   "file_name": "batch_5/000011.JPG",
+   "group": "can",
+   "n_instances": 1
+  },
+  {
+   "image_id": 1098,
+   "file_name": "batch_6/000082.JPG",
+   "group": "can",
+   "n_instances": 1
+  },
+  {
+   "image_id": 1152,
+   "file_name": "batch_6/000024.JPG",
+   "group": "can",
+   "n_instances": 1
+  },
+  {
+   "image_id": 1276,
+   "file_name": "batch_7/000118.JPG",
+   "group": "can",
+   "n_instances": 1
+  },
+  {
+   "image_id": 1308,
+   "file_name": "batch_8/000008.jpg",
+   "group": "can",
+   "n_instances": 1
+  },
+  {
+   "image_id": 1309,
+   "file_name": "batch_8/000009.jpg",
+   "group": "can",
+   "n_instances": 1
+  },
+  {
+   "image_id": 1314,
+   "file_name": "batch_8/000014.jpg",
+   "group": "can",
+   "n_instances": 12
+  },
+  {
+   "image_id": 1329,
+   "file_name": "batch_8/000029.jpg",
+   "group": "can",
+   "n_instances": 1
+  },
+  {
+   "image_id": 57,
+   "file_name": "batch_1/000076.JPG",
+   "group": "cigarette",
+   "n_instances": 6
+  },
+  {
+   "image_id": 155,
+   "file_name": "batch_10/000054.jpg",
+   "group": "cigarette",
+   "n_instances": 1
+  },
+  {
+   "image_id": 188,
+   "file_name": "batch_10/000087.jpg",
+   "group": "cigarette",
+   "n_instances": 2
+  },
+  {
+   "image_id": 347,
+   "file_name": "batch_12/000046.jpg",
+   "group": "cigarette",
+   "n_instances": 3
+  },
+  {
+   "image_id": 504,
+   "file_name": "batch_14/000003.jpg",
+   "group": "cigarette",
+   "n_instances": 1
+  },
+  {
+   "image_id": 618,
+   "file_name": "batch_15/000017.jpg",
+   "group": "cigarette",
+   "n_instances": 1
+  },
+  {
+   "image_id": 625,
+   "file_name": "batch_15/000024.jpg",
+   "group": "cigarette",
+   "n_instances": 6
+  },
+  {
+   "image_id": 718,
+   "file_name": "batch_2/000038.JPG",
+   "group": "cigarette",
+   "n_instances": 2
+  },
+  {
+   "image_id": 728,
+   "file_name": "batch_2/000050.JPG",
+   "group": "cigarette",
+   "n_instances": 4
+  },
+  {
+   "image_id": 758,
+   "file_name": "batch_2/000082.JPG",
+   "group": "cigarette",
+   "n_instances": 2
+  },
+  {
+   "image_id": 964,
+   "file_name": "batch_5/000071.JPG",
+   "group": "cigarette",
+   "n_instances": 1
+  },
+  {
+   "image_id": 1027,
+   "file_name": "batch_5/000010.JPG",
+   "group": "cigarette",
+   "n_instances": 1
+  },
+  {
+   "image_id": 1045,
+   "file_name": "batch_5/000028.JPG",
+   "group": "cigarette",
+   "n_instances": 2
+  },
+  {
+   "image_id": 1241,
+   "file_name": "batch_7/000080.JPG",
+   "group": "cigarette",
+   "n_instances": 1
+  },
+  {
+   "image_id": 1281,
+   "file_name": "batch_7/000123.JPG",
+   "group": "cigarette",
+   "n_instances": 1
+  },
+  {
+   "image_id": 1319,
+   "file_name": "batch_8/000019.jpg",
+   "group": "cigarette",
+   "n_instances": 2
+  },
+  {
+   "image_id": 1325,
+   "file_name": "batch_8/000025.jpg",
+   "group": "cigarette",
+   "n_instances": 2
+  },
+  {
+   "image_id": 1333,
+   "file_name": "batch_8/000033.jpg",
+   "group": "cigarette",
+   "n_instances": 4
+  },
+  {
+   "image_id": 1379,
+   "file_name": "batch_8/000079.jpg",
+   "group": "cigarette",
+   "n_instances": 1
+  },
+  {
+   "image_id": 1413,
+   "file_name": "batch_9/000013.jpg",
+   "group": "cigarette",
+   "n_instances": 1
+  }
+ ],
+ "test": [
+  {
+   "image_id": 34,
+   "file_name": "batch_1/000050.jpg",
+   "group": "bag",
+   "n_instances": 1
+  },
+  {
+   "image_id": 73,
+   "file_name": "batch_1/000095.JPG",
+   "group": "bag",
+   "n_instances": 1
+  },
+  {
+   "image_id": 74,
+   "file_name": "batch_1/000096.JPG",
+   "group": "bag",
+   "n_instances": 1
+  },
+  {
+   "image_id": 85,
+   "file_name": "batch_1/000107.JPG",
+   "group": "bag",
+   "n_instances": 3
+  },
+  {
+   "image_id": 98,
+   "file_name": "batch_1/000127.JPG",
+   "group": "bag",
+   "n_instances": 1
+  },
+  {
+   "image_id": 107,
+   "file_name": "batch_10/000006.jpg",
+   "group": "bag",
+   "n_instances": 2
+  },
+  {
+   "image_id": 127,
+   "file_name": "batch_10/000026.jpg",
+   "group": "bag",
+   "n_instances": 1
+  },
+  {
+   "image_id": 185,
+   "file_name": "batch_10/000084.jpg",
+   "group": "bag",
+   "n_instances": 2
+  },
+  {
+   "image_id": 210,
+   "file_name": "batch_11/000009.jpg",
+   "group": "bag",
+   "n_instances": 1
+  },
+  {
+   "image_id": 229,
+   "file_name": "batch_11/000028.jpg",
+   "group": "bag",
+   "n_instances": 7
+  },
+  {
+   "image_id": 261,
+   "file_name": "batch_11/000060.jpg",
+   "group": "bag",
+   "n_instances": 1
+  },
+  {
+   "image_id": 264,
+   "file_name": "batch_11/000063.jpg",
+   "group": "bag",
+   "n_instances": 1
+  },
+  {
+   "image_id": 266,
+   "file_name": "batch_11/000065.jpg",
+   "group": "bag",
+   "n_instances": 1
+  },
+  {
+   "image_id": 281,
+   "file_name": "batch_11/000080.jpg",
+   "group": "bag",
+   "n_instances": 1
+  },
+  {
+   "image_id": 344,
+   "file_name": "batch_12/000043.jpg",
+   "group": "bag",
+   "n_instances": 1
+  },
+  {
+   "image_id": 359,
+   "file_name": "batch_12/000058.jpg",
+   "group": "bag",
+   "n_instances": 1
+  },
+  {
+   "image_id": 372,
+   "file_name": "batch_12/000071.jpg",
+   "group": "bag",
+   "n_instances": 1
+  },
+  {
+   "image_id": 385,
+   "file_name": "batch_12/000084.jpg",
+   "group": "bag",
+   "n_instances": 2
+  },
+  {
+   "image_id": 387,
+   "file_name": "batch_12/000086.jpg",
+   "group": "bag",
+   "n_instances": 1
+  },
+  {
+   "image_id": 388,
+   "file_name": "batch_12/000087.jpg",
+   "group": "bag",
+   "n_instances": 1
+  },
+  {
+   "image_id": 397,
+   "file_name": "batch_12/000096.jpg",
+   "group": "bag",
+   "n_instances": 1
+  },
+  {
+   "image_id": 606,
+   "file_name": "batch_15/000005.jpg",
+   "group": "bag",
+   "n_instances": 1
+  },
+  {
+   "image_id": 705,
+   "file_name": "batch_2/000023.JPG",
+   "group": "bag",
+   "n_instances": 1
+  },
+  {
+   "image_id": 776,
+   "file_name": "batch_2/000099.JPG",
+   "group": "bag",
+   "n_instances": 1
+  },
+  {
+   "image_id": 857,
+   "file_name": "batch_3/IMG_4965.JPG",
+   "group": "bag",
+   "n_instances": 1
+  },
+  {
+   "image_id": 868,
+   "file_name": "batch_3/IMG_5061.JPG",
+   "group": "bag",
+   "n_instances": 1
+  },
+  {
+   "image_id": 993,
+   "file_name": "batch_5/000063.JPG",
+   "group": "bag",
+   "n_instances": 1
+  },
+  {
+   "image_id": 1071,
+   "file_name": "batch_5/000057.JPG",
+   "group": "bag",
+   "n_instances": 1
+  },
+  {
+   "image_id": 1079,
+   "file_name": "batch_6/000102.JPG",
+   "group": "bag",
+   "n_instances": 1
+  },
+  {
+   "image_id": 1113,
+   "file_name": "batch_6/000065.JPG",
+   "group": "bag",
+   "n_instances": 1
+  },
+  {
+   "image_id": 1123,
+   "file_name": "batch_6/000057.JPG",
+   "group": "bag",
+   "n_instances": 1
+  },
+  {
+   "image_id": 1129,
+   "file_name": "batch_6/000049.JPG",
+   "group": "bag",
+   "n_instances": 1
+  },
+  {
+   "image_id": 1233,
+   "file_name": "batch_7/000071.JPG",
+   "group": "bag",
+   "n_instances": 1
+  },
+  {
+   "image_id": 1239,
+   "file_name": "batch_7/000078.JPG",
+   "group": "bag",
+   "n_instances": 6
+  },
+  {
+   "image_id": 1248,
+   "file_name": "batch_7/000087.JPG",
+   "group": "bag",
+   "n_instances": 1
+  },
+  {
+   "image_id": 1323,
+   "file_name": "batch_8/000023.jpg",
+   "group": "bag",
+   "n_instances": 1
+  },
+  {
+   "image_id": 1362,
+   "file_name": "batch_8/000062.jpg",
+   "group": "bag",
+   "n_instances": 1
+  },
+  {
+   "image_id": 1408,
+   "file_name": "batch_9/000008.jpg",
+   "group": "bag",
+   "n_instances": 1
+  },
+  {
+   "image_id": 1416,
+   "file_name": "batch_9/000016.jpg",
+   "group": "bag",
+   "n_instances": 1
+  },
+  {
+   "image_id": 1478,
+   "file_name": "batch_9/000078.jpg",
+   "group": "bag",
+   "n_instances": 1
+  },
+  {
+   "image_id": 5,
+   "file_name": "batch_1/000047.jpg",
+   "group": "bottle",
+   "n_instances": 1
+  },
+  {
+   "image_id": 28,
+   "file_name": "batch_1/000024.jpg",
+   "group": "bottle",
+   "n_instances": 1
+  },
+  {
+   "image_id": 114,
+   "file_name": "batch_10/000013.jpg",
+   "group": "bottle",
+   "n_instances": 2
+  },
+  {
+   "image_id": 192,
+   "file_name": "batch_10/000091.jpg",
+   "group": "bottle",
+   "n_instances": 1
+  },
+  {
+   "image_id": 198,
+   "file_name": "batch_10/000097.jpg",
+   "group": "bottle",
+   "n_instances": 1
+  },
+  {
+   "image_id": 220,
+   "file_name": "batch_11/000019.jpg",
+   "group": "bottle",
+   "n_instances": 1
+  },
+  {
+   "image_id": 227,
+   "file_name": "batch_11/000026.jpg",
+   "group": "bottle",
+   "n_instances": 1
+  },
+  {
+   "image_id": 235,
+   "file_name": "batch_11/000034.jpg",
+   "group": "bottle",
+   "n_instances": 1
+  },
+  {
+   "image_id": 300,
+   "file_name": "batch_11/000099.jpg",
+   "group": "bottle",
+   "n_instances": 1
+  },
+  {
+   "image_id": 360,
+   "file_name": "batch_12/000059.jpg",
+   "group": "bottle",
+   "n_instances": 1
+  },
+  {
+   "image_id": 444,
+   "file_name": "batch_13/000043.jpg",
+   "group": "bottle",
+   "n_instances": 1
+  },
+  {
+   "image_id": 514,
+   "file_name": "batch_14/000013.jpg",
+   "group": "bottle",
+   "n_instances": 1
+  },
+  {
+   "image_id": 524,
+   "file_name": "batch_14/000023.jpg",
+   "group": "bottle",
+   "n_instances": 1
+  },
+  {
+   "image_id": 580,
+   "file_name": "batch_14/000079.jpg",
+   "group": "bottle",
+   "n_instances": 1
+  },
+  {
+   "image_id": 605,
+   "file_name": "batch_15/000004.jpg",
+   "group": "bottle",
+   "n_instances": 1
+  },
+  {
+   "image_id": 700,
+   "file_name": "batch_2/000018.JPG",
+   "group": "bottle",
+   "n_instances": 1
+  },
+  {
+   "image_id": 753,
+   "file_name": "batch_2/000076.JPG",
+   "group": "bottle",
+   "n_instances": 1
+  },
+  {
+   "image_id": 784,
+   "file_name": "batch_3/IMG_4996.JPG",
+   "group": "bottle",
+   "n_instances": 1
+  },
+  {
+   "image_id": 853,
+   "file_name": "batch_3/IMG_4941.JPG",
+   "group": "bottle",
+   "n_instances": 3
+  },
+  {
+   "image_id": 860,
+   "file_name": "batch_3/IMG_4969.JPG",
+   "group": "bottle",
+   "n_instances": 4
+  },
+  {
+   "image_id": 996,
+   "file_name": "batch_5/000067.JPG",
+   "group": "bottle",
+   "n_instances": 1
+  },
+  {
+   "image_id": 1081,
+   "file_name": "batch_6/000100.JPG",
+   "group": "bottle",
+   "n_instances": 2
+  },
+  {
+   "image_id": 1088,
+   "file_name": "batch_6/000093.JPG",
+   "group": "bottle",
+   "n_instances": 1
+  },
+  {
+   "image_id": 1094,
+   "file_name": "batch_6/000087.JPG",
+   "group": "bottle",
+   "n_instances": 2
+  },
+  {
+   "image_id": 1097,
+   "file_name": "batch_6/000083.JPG",
+   "group": "bottle",
+   "n_instances": 1
+  },
+  {
+   "image_id": 1099,
+   "file_name": "batch_6/000080.JPG",
+   "group": "bottle",
+   "n_instances": 1
+  },
+  {
+   "image_id": 1101,
+   "file_name": "batch_6/000078.JPG",
+   "group": "bottle",
+   "n_instances": 4
+  },
+  {
+   "image_id": 1106,
+   "file_name": "batch_6/000073.JPG",
+   "group": "bottle",
+   "n_instances": 1
+  },
+  {
+   "image_id": 1153,
+   "file_name": "batch_6/000023.JPG",
+   "group": "bottle",
+   "n_instances": 1
+  },
+  {
+   "image_id": 1164,
+   "file_name": "batch_6/000010.JPG",
+   "group": "bottle",
+   "n_instances": 1
+  },
+  {
+   "image_id": 1246,
+   "file_name": "batch_7/000085.JPG",
+   "group": "bottle",
+   "n_instances": 10
+  },
+  {
+   "image_id": 1250,
+   "file_name": "batch_7/000089.JPG",
+   "group": "bottle",
+   "n_instances": 1
+  },
+  {
+   "image_id": 1312,
+   "file_name": "batch_8/000012.jpg",
+   "group": "bottle",
+   "n_instances": 1
+  },
+  {
+   "image_id": 1327,
+   "file_name": "batch_8/000027.jpg",
+   "group": "bottle",
+   "n_instances": 1
+  },
+  {
+   "image_id": 1330,
+   "file_name": "batch_8/000030.jpg",
+   "group": "bottle",
+   "n_instances": 1
+  },
+  {
+   "image_id": 1347,
+   "file_name": "batch_8/000047.jpg",
+   "group": "bottle",
+   "n_instances": 1
+  },
+  {
+   "image_id": 1369,
+   "file_name": "batch_8/000069.jpg",
+   "group": "bottle",
+   "n_instances": 1
+  },
+  {
+   "image_id": 1373,
+   "file_name": "batch_8/000073.jpg",
+   "group": "bottle",
+   "n_instances": 1
+  },
+  {
+   "image_id": 1484,
+   "file_name": "batch_9/000084.jpg",
+   "group": "bottle",
+   "n_instances": 2
+  },
+  {
+   "image_id": 1493,
+   "file_name": "batch_9/000093.jpg",
+   "group": "bottle",
+   "n_instances": 2
+  },
+  {
+   "image_id": 11,
+   "file_name": "batch_1/000014.jpg",
+   "group": "can",
+   "n_instances": 1
+  },
+  {
+   "image_id": 21,
+   "file_name": "batch_1/000043.jpg",
+   "group": "can",
+   "n_instances": 1
+  },
+  {
+   "image_id": 27,
+   "file_name": "batch_1/000023.jpg",
+   "group": "can",
+   "n_instances": 4
+  },
+  {
+   "image_id": 42,
+   "file_name": "batch_1/000029.jpg",
+   "group": "can",
+   "n_instances": 1
+  },
+  {
+   "image_id": 45,
+   "file_name": "batch_1/000045.jpg",
+   "group": "can",
+   "n_instances": 6
+  },
+  {
+   "image_id": 52,
+   "file_name": "batch_1/000070.JPG",
+   "group": "can",
+   "n_instances": 1
+  },
+  {
+   "image_id": 89,
+   "file_name": "batch_1/000115.JPG",
+   "group": "can",
+   "n_instances": 1
+  },
+  {
+   "image_id": 100,
+   "file_name": "batch_1/000129.JPG",
+   "group": "can",
+   "n_instances": 1
+  },
+  {
+   "image_id": 126,
+   "file_name": "batch_10/000025.jpg",
+   "group": "can",
+   "n_instances": 1
+  },
+  {
+   "image_id": 378,
+   "file_name": "batch_12/000077.jpg",
+   "group": "can",
+   "n_instances": 2
+  },
+  {
+   "image_id": 427,
+   "file_name": "batch_13/000026.jpg",
+   "group": "can",
+   "n_instances": 1
+  },
+  {
+   "image_id": 438,
+   "file_name": "batch_13/000037.jpg",
+   "group": "can",
+   "n_instances": 1
+  },
+  {
+   "image_id": 460,
+   "file_name": "batch_13/000059.jpg",
+   "group": "can",
+   "n_instances": 1
+  },
+  {
+   "image_id": 614,
+   "file_name": "batch_15/000013.jpg",
+   "group": "can",
+   "n_instances": 1
+  },
+  {
+   "image_id": 621,
+   "file_name": "batch_15/000020.jpg",
+   "group": "can",
+   "n_instances": 1
+  },
+  {
+   "image_id": 636,
+   "file_name": "batch_15/000035.jpg",
+   "group": "can",
+   "n_instances": 1
+  },
+  {
+   "image_id": 709,
+   "file_name": "batch_2/000027.JPG",
+   "group": "can",
+   "n_instances": 5
+  },
+  {
+   "image_id": 752,
+   "file_name": "batch_2/000075.JPG",
+   "group": "can",
+   "n_instances": 1
+  },
+  {
+   "image_id": 756,
+   "file_name": "batch_2/000080.JPG",
+   "group": "can",
+   "n_instances": 1
+  },
+  {
+   "image_id": 764,
+   "file_name": "batch_2/000049.JPG",
+   "group": "can",
+   "n_instances": 3
+  },
+  {
+   "image_id": 775,
+   "file_name": "batch_2/000098.JPG",
+   "group": "can",
+   "n_instances": 1
+  },
+  {
+   "image_id": 805,
+   "file_name": "batch_3/IMG_5055.JPG",
+   "group": "can",
+   "n_instances": 2
+  },
+  {
+   "image_id": 828,
+   "file_name": "batch_3/IMG_4889.JPG",
+   "group": "can",
+   "n_instances": 1
+  },
+  {
+   "image_id": 866,
+   "file_name": "batch_3/IMG_4948.JPG",
+   "group": "can",
+   "n_instances": 1
+  },
+  {
+   "image_id": 951,
+   "file_name": "batch_4/000085.JPG",
+   "group": "can",
+   "n_instances": 1
+  },
+  {
+   "image_id": 1022,
+   "file_name": "batch_5/000005.JPG",
+   "group": "can",
+   "n_instances": 1
+  },
+  {
+   "image_id": 1024,
+   "file_name": "batch_5/000007.JPG",
+   "group": "can",
+   "n_instances": 1
+  },
+  {
+   "image_id": 1033,
+   "file_name": "batch_5/000016.JPG",
+   "group": "can",
+   "n_instances": 1
+  },
+  {
+   "image_id": 1056,
+   "file_name": "batch_5/000040.JPG",
+   "group": "can",
+   "n_instances": 1
+  },
+  {
+   "image_id": 1061,
+   "file_name": "batch_5/000046.JPG",
+   "group": "can",
+   "n_instances": 1
+  },
+  {
+   "image_id": 1082,
+   "file_name": "batch_6/000099.JPG",
+   "group": "can",
+   "n_instances": 1
+  },
+  {
+   "image_id": 1162,
+   "file_name": "batch_6/000013.JPG",
+   "group": "can",
+   "n_instances": 1
+  },
+  {
+   "image_id": 1253,
+   "file_name": "batch_7/000092.JPG",
+   "group": "can",
+   "n_instances": 2
+  },
+  {
+   "image_id": 1256,
+   "file_name": "batch_7/000095.JPG",
+   "group": "can",
+   "n_instances": 1
+  },
+  {
+   "image_id": 1359,
+   "file_name": "batch_8/000059.jpg",
+   "group": "can",
+   "n_instances": 1
+  },
+  {
+   "image_id": 1374,
+   "file_name": "batch_8/000074.jpg",
+   "group": "can",
+   "n_instances": 3
+  },
+  {
+   "image_id": 1388,
+   "file_name": "batch_8/000088.jpg",
+   "group": "can",
+   "n_instances": 1
+  },
+  {
+   "image_id": 1397,
+   "file_name": "batch_8/000097.jpg",
+   "group": "can",
+   "n_instances": 2
+  },
+  {
+   "image_id": 1401,
+   "file_name": "batch_9/000001.jpg",
+   "group": "can",
+   "n_instances": 1
+  },
+  {
+   "image_id": 1490,
+   "file_name": "batch_9/000090.jpg",
+   "group": "can",
+   "n_instances": 1
+  },
+  {
+   "image_id": 60,
+   "file_name": "batch_1/000081.JPG",
+   "group": "cigarette",
+   "n_instances": 1
+  },
+  {
+   "image_id": 64,
+   "file_name": "batch_1/000085.JPG",
+   "group": "cigarette",
+   "n_instances": 6
+  },
+  {
+   "image_id": 86,
+   "file_name": "batch_1/000108.JPG",
+   "group": "cigarette",
+   "n_instances": 1
+  },
+  {
+   "image_id": 121,
+   "file_name": "batch_10/000020.jpg",
+   "group": "cigarette",
+   "n_instances": 10
+  },
+  {
+   "image_id": 132,
+   "file_name": "batch_10/000031.jpg",
+   "group": "cigarette",
+   "n_instances": 1
+  },
+  {
+   "image_id": 138,
+   "file_name": "batch_10/000037.jpg",
+   "group": "cigarette",
+   "n_instances": 3
+  },
+  {
+   "image_id": 176,
+   "file_name": "batch_10/000075.jpg",
+   "group": "cigarette",
+   "n_instances": 1
+  },
+  {
+   "image_id": 178,
+   "file_name": "batch_10/000077.jpg",
+   "group": "cigarette",
+   "n_instances": 1
+  },
+  {
+   "image_id": 194,
+   "file_name": "batch_10/000093.jpg",
+   "group": "cigarette",
+   "n_instances": 1
+  },
+  {
+   "image_id": 196,
+   "file_name": "batch_10/000095.jpg",
+   "group": "cigarette",
+   "n_instances": 1
+  },
+  {
+   "image_id": 298,
+   "file_name": "batch_11/000097.jpg",
+   "group": "cigarette",
+   "n_instances": 6
+  },
+  {
+   "image_id": 325,
+   "file_name": "batch_12/000024.jpg",
+   "group": "cigarette",
+   "n_instances": 23
+  },
+  {
+   "image_id": 333,
+   "file_name": "batch_12/000032.jpg",
+   "group": "cigarette",
+   "n_instances": 1
+  },
+  {
+   "image_id": 348,
+   "file_name": "batch_12/000047.jpg",
+   "group": "cigarette",
+   "n_instances": 1
+  },
+  {
+   "image_id": 398,
+   "file_name": "batch_12/000097.jpg",
+   "group": "cigarette",
+   "n_instances": 1
+  },
+  {
+   "image_id": 426,
+   "file_name": "batch_13/000025.jpg",
+   "group": "cigarette",
+   "n_instances": 1
+  },
+  {
+   "image_id": 778,
+   "file_name": "batch_3/IMG_4972.JPG",
+   "group": "cigarette",
+   "n_instances": 1
+  },
+  {
+   "image_id": 781,
+   "file_name": "batch_3/IMG_4980.JPG",
+   "group": "cigarette",
+   "n_instances": 1
+  },
+  {
+   "image_id": 829,
+   "file_name": "batch_3/IMG_4891.JPG",
+   "group": "cigarette",
+   "n_instances": 1
+  },
+  {
+   "image_id": 882,
+   "file_name": "batch_4/000005.JPG",
+   "group": "cigarette",
+   "n_instances": 2
+  },
+  {
+   "image_id": 905,
+   "file_name": "batch_4/000031.JPG",
+   "group": "cigarette",
+   "n_instances": 1
+  },
+  {
+   "image_id": 1007,
+   "file_name": "batch_5/000108.JPG",
+   "group": "cigarette",
+   "n_instances": 1
+  },
+  {
+   "image_id": 1161,
+   "file_name": "batch_6/000014.JPG",
+   "group": "cigarette",
+   "n_instances": 6
+  },
+  {
+   "image_id": 1193,
+   "file_name": "batch_7/000022.JPG",
+   "group": "cigarette",
+   "n_instances": 1
+  },
+  {
+   "image_id": 1234,
+   "file_name": "batch_7/000072.JPG",
+   "group": "cigarette",
+   "n_instances": 2
+  },
+  {
+   "image_id": 1235,
+   "file_name": "batch_7/000073.JPG",
+   "group": "cigarette",
+   "n_instances": 3
+  },
+  {
+   "image_id": 1247,
+   "file_name": "batch_7/000086.JPG",
+   "group": "cigarette",
+   "n_instances": 1
+  },
+  {
+   "image_id": 1257,
+   "file_name": "batch_7/000096.JPG",
+   "group": "cigarette",
+   "n_instances": 1
+  },
+  {
+   "image_id": 1321,
+   "file_name": "batch_8/000021.jpg",
+   "group": "cigarette",
+   "n_instances": 1
+  },
+  {
+   "image_id": 1328,
+   "file_name": "batch_8/000028.jpg",
+   "group": "cigarette",
+   "n_instances": 7
+  },
+  {
+   "image_id": 1351,
+   "file_name": "batch_8/000051.jpg",
+   "group": "cigarette",
+   "n_instances": 2
+  },
+  {
+   "image_id": 1376,
+   "file_name": "batch_8/000076.jpg",
+   "group": "cigarette",
+   "n_instances": 1
+  },
+  {
+   "image_id": 1380,
+   "file_name": "batch_8/000080.jpg",
+   "group": "cigarette",
+   "n_instances": 1
+  },
+  {
+   "image_id": 1395,
+   "file_name": "batch_8/000095.jpg",
+   "group": "cigarette",
+   "n_instances": 1
+  },
+  {
+   "image_id": 1404,
+   "file_name": "batch_9/000004.jpg",
+   "group": "cigarette",
+   "n_instances": 2
+  },
+  {
+   "image_id": 1428,
+   "file_name": "batch_9/000028.jpg",
+   "group": "cigarette",
+   "n_instances": 2
+  },
+  {
+   "image_id": 1429,
+   "file_name": "batch_9/000029.jpg",
+   "group": "cigarette",
+   "n_instances": 3
+  },
+  {
+   "image_id": 1451,
+   "file_name": "batch_9/000051.jpg",
+   "group": "cigarette",
+   "n_instances": 2
+  },
+  {
+   "image_id": 1452,
+   "file_name": "batch_9/000052.jpg",
+   "group": "cigarette",
+   "n_instances": 1
+  },
+  {
+   "image_id": 1466,
+   "file_name": "batch_9/000066.jpg",
+   "group": "cigarette",
+   "n_instances": 1
+  }
+ ]
+}
