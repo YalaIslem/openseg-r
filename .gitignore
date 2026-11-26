@@ -1,0 +1,17 @@
+# Données et modèles (stockés sur Google Drive)
+data/*
+!data/.gitkeep
+*.pth
+*.pt
+*.safetensors
+checkpoints/
+
+# Python
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+.venv/
+.env
+
+# Divers
+.DS_Store
