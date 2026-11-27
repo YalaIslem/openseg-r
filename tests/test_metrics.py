@@ -111,5 +111,3 @@ if __name__ == "__main__":
         if name.startswith("test_") and callable(fn):
             fn()
             print("OK  ", name)
-EOF
-echo ok

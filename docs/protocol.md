@@ -65,6 +65,3 @@ l'incertitude.
 - Le groupe bottle inclut les bouteilles en verre alors que le texte de base est « bottle ».
 - Petits effectifs (40 paires par groupe en test) : les écarts faibles sont incertains.
 - Le seuil d'appariement de 0,5 est un choix conventionnel.
-EOF
-EOF
-echo ok

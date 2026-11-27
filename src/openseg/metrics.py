@@ -101,5 +101,3 @@ def bootstrap_macro_ci(values_by_group: dict, n_boot: int = 2000, seed: int = 0,
         boots[b] = np.mean([a[rng.integers(0, len(a), len(a))].mean() for a in arrays])
     lo, hi = np.percentile(boots, [100 * alpha / 2, 100 * (1 - alpha / 2)])
     return point, float(lo), float(hi)
-EOF
-echo ok
