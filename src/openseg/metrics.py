@@ -1,4 +1,3 @@
-cat > src/openseg/metrics.py << 'EOF'
 """Métriques d'évaluation : IoU union, appariement par instance, bootstrap.
 
 Convention : les masques sont des tableaux booléens de forme (N, H, W).

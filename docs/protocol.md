@@ -1,6 +1,5 @@
 cd /mnt/c/Users/DELL/openseg-r
 pwd    # doit afficher /mnt/c/Users/DELL/openseg-r
-cat > docs/protocol.md << 'EOF'
 # Protocole d'évaluation (v1)
 
 Ce document est écrit **avant** de lancer les évaluations. Il définit ce qui est mesuré

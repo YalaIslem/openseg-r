@@ -1,4 +1,3 @@
-cat > tests/test_metrics.py << 'EOF'
 """Tests des métriques sur des cas dont la réponse est connue."""
 import sys
 from pathlib import Path
