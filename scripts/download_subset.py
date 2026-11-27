@@ -3,7 +3,8 @@
 - Télécharge l'image ORIGINALE (flickr_url), celle sur laquelle les masques sont définis.
 - Reprend là où il s'est arrêté (fichiers déjà présents ignorés).
 - Ne s'arrête pas à la première erreur : les échecs sont comptés et listés.
-- Vérifie la taille de chaque image contre width/height de l'annotation.
+- Compare la taille de chaque image à width/height de l'annotation, AVANT et APRÈS
+  correction de l'orientation EXIF (les annotations TACO supposent l'image pivotée).
 Seule la bibliothèque standard et Pillow sont utilisées.
 """
 import argparse
@@ -13,7 +14,7 @@ import time
 import urllib.request
 from pathlib import Path
 
-from PIL import Image
+from PIL import Image, ImageOps
 
 
 def fetch(url: str, dest: Path, retries: int = 3, timeout: int = 30):
@@ -39,7 +40,8 @@ def main():
     ap.add_argument("--annotations", required=True)
     ap.add_argument("--split", default="configs/split_v1.json")
     ap.add_argument("--out-dir", required=True, help="dossier de destination (ex. sur Drive)")
-    ap.add_argument("--limit", type=int, default=0, help="test rapide : n images réparties dans le découpage")
+    ap.add_argument("--limit", type=int, default=0,
+                    help="test rapide : n images réparties dans le découpage")
     args = ap.parse_args()
 
     coco = json.loads(Path(args.annotations).read_text())
@@ -55,7 +57,9 @@ def main():
     out_dir.mkdir(parents=True, exist_ok=True)
     shutil.copy(args.annotations, out_dir / "annotations.json")
 
-    failed, size_mismatch, exif_rotated, n_new = [], [], [], 0
+    failed, raw_mismatch, size_mismatch, exif_rotated = [], [], [], []
+    n_new = 0
+
     for k, row in enumerate(rows, 1):
         im = images[row["image_id"]]
         dest = out_dir / im["file_name"]
@@ -70,14 +74,18 @@ def main():
 
         try:
             with Image.open(dest) as img:
-                size = img.size
+                raw_size = img.size
                 orientation = img.getexif().get(0x0112, 1)
+                size = ImageOps.exif_transpose(img).size  # taille après correction EXIF
         except Exception as e:  # noqa: BLE001
             failed.append((im["file_name"], f"image illisible : {e}"))
             continue
 
-        if size != (im["width"], im["height"]):
-            size_mismatch.append((im["file_name"], size, (im["width"], im["height"])))
+        expected = (im["width"], im["height"])
+        if raw_size != expected:
+            raw_mismatch.append((im["file_name"], raw_size, expected))
+        if size != expected:  # encore faux APRÈS correction : vrai problème
+            size_mismatch.append((im["file_name"], size, expected))
         if orientation not in (None, 1):
             exif_rotated.append((im["file_name"], orientation))
 
@@ -85,19 +93,25 @@ def main():
             print(f"{k}/{len(rows)} traitées")
 
     print("\n=== Bilan ===")
-    print(f"Images visées               : {len(rows)}")
-    print(f"Téléchargées (nouvelles)    : {n_new}")
-    print(f"Échecs                      : {len(failed)}")
-    print(f"Taille != annotation        : {len(size_mismatch)}")
-    print(f"Orientation EXIF non triviale : {len(exif_rotated)}")
+    print(f"Images visées                                       : {len(rows)}")
+    print(f"Téléchargées (nouvelles)                            : {n_new}")
+    print(f"Échecs                                              : {len(failed)}")
+    print(f"Taille brute != annotation (avant correction EXIF)  : {len(raw_mismatch)}")
+    print(f"Taille != annotation APRÈS correction EXIF          : {len(size_mismatch)}")
+    print(f"Orientation EXIF non triviale                       : {len(exif_rotated)}")
     for name, err in failed[:10]:
         print("  ÉCHEC", name, "->", err)
     for name, got, exp in size_mismatch[:10]:
-        print("  TAILLE", name, "lue", got, "attendue", exp)
+        print("  TAILLE APRÈS CORRECTION", name, "lue", got, "attendue", exp)
     for name, o in exif_rotated[:10]:
         print("  EXIF", name, "orientation", o)
 
-    report = {"failed": failed, "size_mismatch": size_mismatch, "exif_rotated": exif_rotated}
+    report = {
+        "failed": failed,
+        "raw_mismatch": raw_mismatch,
+        "size_mismatch": size_mismatch,
+        "exif_rotated": exif_rotated,
+    }
     (out_dir / "download_report.json").write_text(json.dumps(report, indent=1))
 
 
